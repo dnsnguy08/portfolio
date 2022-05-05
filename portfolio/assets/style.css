@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    margin-left: 25px;
+
+}
+
+.nav-list
+
+nav {
+    display: inline;
+    /* padding-top: 15px; */
+    /* margin-right: 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+body {
+    background-color: #2a607c;
+}
+.hero_img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('../assets/images/hero_banner.JPG');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero-img div {
+    flex: 0 0 90%;
+  }
+
+.hero_img h3 {
+    color: white;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.5;
+    display: inline;
+  }
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    padding: 5px;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
