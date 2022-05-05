@@ -48,7 +48,7 @@ li {
 } */
 
 body {
-    background-color: #2a607c;
+    background-color: #6ebee9;
 }
 .hero_img {
     height: 400px;
@@ -114,6 +114,71 @@ main {
 #about-me img {
     width: 200px;
     height: 180px;
+}
+
+
+/* .page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+} */
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    border: 3px solid red;
+
+}
+
+.work-item {
+    color: white;
+    /* background-color: #6ebee9; */
+    border: 5px solid black;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: auto;
+    flex-grow: 1;
+    /* calc(50% - 1em); */
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;]
+}
+
+#try-this {
+    background-color: #e1e96e;
+}
+.work-item a div {
+    color: white;
+}
+.marvel-img {
+    flex-basis: 100%;
+    min-height: 200px;
+    background-image: url("../assets/images/Screen\ Shot\ 2022-05-05\ at\ 2.52.39\ PM.png")
+    
+}
+
+.refactor-img {
+    flex-basis: 20%;
+    background-image: url("../assets/images/refactor_website.jpg")
+    
+}
+
+.placeholder-img {
+    flex-basis: 20%;
+    background-image: url("../assets/images/placeholder.jpg")
 }
 
 aside {
