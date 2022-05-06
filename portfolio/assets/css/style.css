@@ -126,7 +126,7 @@ main {
     font-size: 0.9rem;
 }
 
-#try-this {
+.project-card {
     background-color: #204c61;
     color: white;
 }
@@ -136,7 +136,7 @@ main {
 .marvel-img {
     flex-basis: 100%;
     min-height: 200px;
-    background-image: url("../images/marvel_movies.jpg")
+    background-image: url("../images/movie_site.jpg")
     
 }
 
