@@ -8,7 +8,7 @@ header {
     padding: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    background-color: #2a607c;
+    background-color: #204c61;
     color: #ffffff;
 }
 
@@ -50,6 +50,7 @@ li {
 body {
     background-color: #6ebee9;
 }
+
 .hero_img {
     height: 400px;
     width: 100%;
@@ -100,9 +101,13 @@ main {
 #about-me {
     display: flex;
     gap: 1rem;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     align-items: flex-start;
 }
+
+/* #about-me h2 {
+    color: black;
+} */
 
 #about-me div {
     flex-direction: column;
@@ -112,8 +117,8 @@ main {
 } */
 
 #about-me img {
-    width: 200px;
-    height: 180px;
+    width: 210px;
+    height: 210px;
 }
 
 
@@ -127,20 +132,23 @@ main {
     justify-content: space-between;
 } */
 
+.projects h2 {
+    padding: 25px 0 15px 0;
+}
+
 .work-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-    border: 3px solid red;
-
+    /* border: 3px solid red; */
 }
 
 .work-item {
     color: white;
     /* background-color: #6ebee9; */
-    border: 5px solid black;
+    border: 7px solid #204c61;
     min-height: 150px;
     max-height: 150px;
     flex-basis: auto;
@@ -154,11 +162,12 @@ main {
     background-blend-mode: soft-light;
     background-size: 150%;
     transition: all 0.5s;
-    font-size: 0.9rem;]
+    font-size: 0.9rem;
 }
 
 #try-this {
-    background-color: #e1e96e;
+    background-color: #204c61;
+    color: white;
 }
 .work-item a div {
     color: white;
@@ -192,7 +201,8 @@ aside {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #6ebee9;
+    color: #204c61;
 }
 
 aside h3 {
