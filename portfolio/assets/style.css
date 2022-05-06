@@ -199,10 +199,22 @@ aside h3 {
     padding: 10px;
 }
 
+
+.contact h2 {
+    padding: 20px;
+}
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
 footer h2 {
     display: flex;
-    justify-content: center;
-    align-content: flex-end;
+    justify-content: end;
     font-size: 16px;
     text-decoration: none;
+    padding: 40px;
 }
