@@ -41,7 +41,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
 
-![Portfolio Screenshot](./assets/images/portfolio.jpg)
+![Portfolio Screenshot](./assets/images/dn_portfolio.jpg)
 
 ### Links
 
