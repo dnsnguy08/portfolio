@@ -126,28 +126,32 @@ main {
     font-size: 0.9rem;
 }
 
+.work-item a div {
+    color: white;
+}
+
 .project-card {
     background-color: #204c61;
     color: white;
 }
-.work-item a div {
-    color: white;
-}
+
 .marvel-img {
     flex-basis: 100%;
-    min-height: 200px;
+    min-height: 250px;
     background-image: url("../images/movie_site.jpg")
     
 }
 
 .refactor-img {
     flex-basis: 20%;
+    min-height: 200px;
     background-image: url("../images/refactor_website.jpg")
     
 }
 
 .placeholder-img {
     flex-basis: 20%;
+    min-height: 200px;
     background-image: url("../images/placeholder.jpg")
 }
 
@@ -180,6 +184,7 @@ aside h3 {
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    font-size: 20px;
 }
 
 footer h2 {
