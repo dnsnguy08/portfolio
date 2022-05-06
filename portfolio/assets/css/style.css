@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #204c61;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    margin-left: 25px;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: large;
+    background-color: #fff;
+}
+
+body {
+    background-color: #6ebee9;
+}
+
+.hero_img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('../images/hero_banner.JPG');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero-img div {
+    flex: 0 0 90%;
+}
+
+.hero_img h3 {
+    color: white;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.5;
+    display: flex;
+    justify-content: end;
+}
+
+#skills {
+    list-style: square;
+    padding: 5px;
+}
+
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+#about-me {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+#about-me div {
+    flex-direction: column;
+}
+
+#about-me img {
+    width: 210px;
+    height: 210px;
+    border: 5px solid #204c61;
+}
+
+#projects h2 {
+    padding: 25px 0 15px 0;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.work-item {
+    color: white;
+    border: 7px solid #204c61;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: auto;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+#try-this {
+    background-color: #204c61;
+    color: white;
+}
+.work-item a div {
+    color: white;
+}
+.marvel-img {
+    flex-basis: 100%;
+    min-height: 200px;
+    background-image: url("../images/marvel_movies.jpg")
+    
+}
+
+.refactor-img {
+    flex-basis: 20%;
+    background-image: url("../images/refactor_website.jpg")
+    
+}
+
+.placeholder-img {
+    flex-basis: 20%;
+    background-image: url("../images/placeholder.jpg")
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #6ebee9;
+    color: #204c61;
+}
+
+aside h3 {
+    padding: 10px;
+}
+
+#contact h2 {
+    padding: 20px;
+}
+#contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .work-item,
+    .work-item:first-child {
+        flex-basis: 100%;
+    }
+  
+    .work-item:first-child {
+        min-height: 150px;
+    }
+  
+    .hero-img {
+        justify-content: center;
+        text-align: center;
+    }
+
+    aside {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+      }
+  
+    #contact address {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }
+  
