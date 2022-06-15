@@ -142,6 +142,13 @@ main {
     
 }
 
+.project-img {
+    flex-basis: 100%;
+    min-height: 250px;
+    background-image: url("../images/screenshot_2.png")
+    
+}
+
 .refactor-img {
     flex-basis: 20%;
     min-height: 200px;
