@@ -149,6 +149,13 @@ main {
     
 }
 
+.project2-img {
+    flex-basis: 100%;
+    min-height: 250px;
+    background-image: url("../images/sing_it_loud.png")
+    
+}
+
 .refactor-img {
     flex-basis: 20%;
     min-height: 200px;
