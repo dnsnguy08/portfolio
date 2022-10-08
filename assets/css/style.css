@@ -142,6 +142,20 @@ main {
     
 }
 
+.text-editor-img {
+    flex-basis: 100%;
+    min-height: 250px;
+    background-image: url("../images/text_editor.jpg")
+    
+}
+
+.book-search-img {
+    flex-basis: 100%;
+    min-height: 250px;
+    background-image: url("../images/book_search.jpg")
+    
+}
+
 .project-img {
     flex-basis: 100%;
     min-height: 250px;
@@ -153,6 +167,12 @@ main {
     flex-basis: 100%;
     min-height: 250px;
     background-image: url("../images/sing_it_loud.png")
+    
+}
+.project3-img {
+    flex-basis: 100%;
+    min-height: 250px;
+    background-image: url("../images/pawsitive.jpg")
     
 }
 
